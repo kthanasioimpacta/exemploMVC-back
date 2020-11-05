@@ -1,5 +1,11 @@
 {
     "name": "kthanasioimpacta/exemploMVC-back",
     "type": "library",
+    "repositories": [
+      {
+        "type": "vcs",
+        "url": "git@github.com:kthanasioimpacta/exemploMVC-back.git"
+      }
+    ],
     "version": "1.0.0"
 }
