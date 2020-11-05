@@ -1,6 +1,6 @@
 {
     "name": "kthanasioimpacta/exemplomvc-back",
-    "type": "library",
+    "type": "git",
     "repositories": [
       {
         "type": "vcs",
