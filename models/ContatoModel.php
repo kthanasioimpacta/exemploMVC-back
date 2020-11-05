@@ -86,7 +86,7 @@ class ContatoModel extends PersistModelAbstract
 			{
 				$o_contato = new ContatoModel();
 				$o_contato->setId($o_ret->con_in_id);
-				$o_contato->setNome($o_ret->con_st_nome);
+				$o_contato->setNome($o_ret->con_st_nome.' Headless');
 				$o_contato->setEmail($o_ret->con_st_email);
 				array_push($v_contatos, $o_contato);
 			}
