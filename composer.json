@@ -1,4 +1,5 @@
 {
     "name": "kthanasioimpacta/exemploMVC-back",
-    "type": "library"
+    "type": "library",
+    "version": "1.0.0"
 }
