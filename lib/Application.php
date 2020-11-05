@@ -1,8 +1,9 @@
 <?php
+
 function __autoload($st_class)
 {
-	if(file_exists('lib/'.$st_class.'.php'))
-		require_once 'lib/'.$st_class.'.php';
+	if(file_exists(__DIR__.'/'.$st_class.'.php'))
+		require_once __DIR__.'/'.$st_class.'.php';
 }
 
 
@@ -68,7 +69,7 @@ class Application
 		$this->loadRoute();
 		
 		//verificando se o arquivo de controle existe
-		$st_controller_file = 'controllers/'.ucfirst($this->st_controller).'Controller.php';
+		$st_controller_file = __DIR__.'/../controllers/'.ucfirst($this->st_controller).'Controller.php';
 		if(file_exists($st_controller_file))
 			require_once $st_controller_file;
 		else

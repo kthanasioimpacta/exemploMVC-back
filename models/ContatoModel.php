@@ -1,5 +1,5 @@
 <?php
-require_once 'models/TelefoneModel.php';
+require_once __DIR__ . '/TelefoneModel.php';
 
 
 /**

@@ -1,6 +1,6 @@
 <?php
-require_once 'models/TelefoneModel.php';
-require_once 'models/ContatoModel.php';
+require_once __DIR__.'/../models/TelefoneModel.php';
+require_once __DIR__.'/../models/ContatoModel.php';
 
 /**
  * 

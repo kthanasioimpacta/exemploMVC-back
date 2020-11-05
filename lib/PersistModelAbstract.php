@@ -15,8 +15,9 @@ abstract class PersistModelAbstract
 	
 	function __construct()
 	{
-		//Conectando ao banco de dados		
-		$this->o_db = new PDO("sqlite:./databases/db.sq3");
+		//Conectando ao banco de dados
+		$path	= __DIR__ . '/../databases/db.sq3';
+		$this->o_db = new PDO("sqlite:".$path);
 		
 		/*
 		Mudando para MySQL

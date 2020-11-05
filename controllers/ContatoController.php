@@ -1,6 +1,6 @@
 <?php
 //incluindo classes da camada Model
-require_once 'models/ContatoModel.php';
+require_once __DIR__.'/../models/ContatoModel.php';
 
 
 /**
